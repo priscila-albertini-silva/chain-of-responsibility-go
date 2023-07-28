@@ -1,6 +1,6 @@
 package main
 
-import "github.com-pessoal/priscila-albertini/chain-of-responsibility/internal"
+import "github.com-pessoal/priscila-albertini/chain-of-responsibility/generic/internal"
 
 func main() {
 
@@ -19,7 +19,7 @@ func main() {
 	request3 := internal.Request{Type: "C"}
 
 	// Envio das requisições pela cadeia
-	handlerA.HandleRequest(request1)
-	handlerA.HandleRequest(request2)
-	handlerA.HandleRequest(request3)
+	handlerA.HandleRequest(request1) // Saída: "Handler A lida com a requisição"
+	handlerA.HandleRequest(request2) // Saída: "Handler B lida com a requisição"
+	handlerA.HandleRequest(request3) // Saída: "Nenhum manipulador disponível para lidar com a requisição"
 }
