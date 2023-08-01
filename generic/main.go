@@ -1,6 +1,6 @@
 package main
 
-import "github.com-pessoal/priscila-albertini/chain-of-responsibility/generic/internal"
+import "github.com/priscila-albertini/chain-of-responsibility/generic/internal"
 
 func main() {
 

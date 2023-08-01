@@ -1,6 +1,6 @@
 package main
 
-import "github.com-pessoal/priscila-albertini/chain-of-responsibility/cenario-real-suporte/internal"
+import "github.com/priscila-albertini/chain-of-responsibility/cenario-real-suporte/internal"
 
 func main() {
 	// Criação dos manipuladores
